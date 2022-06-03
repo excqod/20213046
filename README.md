@@ -66,11 +66,27 @@
 |***-u***|특정 사용자의 프로세스 정보를 확인할 때 사용, 사용자 미지정 시 현재 사용자 기준 출력|
 |***x(BSD)***|터미널에 종속되지 않는 프로세스 출력|
 |***-x***|로그인 상태에 있는 동안 아직 완료되지 않은 프로세서 출력|
+
+- ps 명령어 사용 예시
+  + ***ps ax*** : BSD 포맷으로 출력
   
+    <img width="365" alt="스크린샷 2022-06-03 16 23 34" src="https://user-images.githubusercontent.com/106721960/171807481-33dbf79d-e07f-4ab9-bbb4-739f1aeeda27.png">
+    
+  + ***ps aux*** : 모든 프로세스를 소유자 정보와 함께 다양하게 출력
+
+    <img width="691" alt="스크린샷 2022-06-03 16 25 29" src="https://user-images.githubusercontent.com/106721960/171807756-734c79ec-a7d0-4373-8517-646df87b03c0.png">
+    
+  + ***ps -ef | more*** : 한 페이지씩 출력해 보기
+
+    <img width="541" alt="스크린샷 2022-06-03 16 27 11" src="https://user-images.githubusercontent.com/106721960/171808027-77b84fdd-aa76-4cb9-b32f-e9d43a80a8c2.png">
+    
+  + ***ps -el | head*** : 긴 포맷으로 출력
+
+    <img width="662" alt="스크린샷 2022-06-03 16 28 16" src="https://user-images.githubusercontent.com/106721960/171808198-aa65e62a-f354-49f6-8489-a78fa9fe1353.png">
+    
 
 
-
-
+    
 
 
 
