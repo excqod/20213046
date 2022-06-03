@@ -84,9 +84,10 @@
 
     <img width="662" alt="스크린샷 2022-06-03 16 28 16" src="https://user-images.githubusercontent.com/106721960/171808198-aa65e62a-f354-49f6-8489-a78fa9fe1353.png">
     
+***[3] jobs 명령어***
+> 작업의 상태를 표시하는 명령어
 
-
-    
+- 현재 쉘 
 
 
 
