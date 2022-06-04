@@ -140,7 +140,7 @@
   + ***kill -9 756 757 758*** : PID가 756, 757, 758인 프로세스 ***강제 종료***
   + ***kill -HUP 10118*** : PID가 10118인 프로세스 재시작
 
-### **[5] vim 매크로**
+### **[5] vim 에디터 매크로**
 > 같은 동작을 반복해서 실행할 수 있도록 하는 명령어
 
 - 매크로를 사용하면 KeyStroke를 줄일 수 있음
@@ -150,37 +150,31 @@
   + `q[name]`
   + ***q[name]*** 기록 시작 -> 작업 -> ***q*** 기록 종료
   + 매크로 시작 시 ***@[name]***
+  + ***[숫자]@[name]*** 숫자에 들어간 만큼 매크로 실행 ex) `15@A`: 15번의 매크로 A 실행 
 
 - 매크로 사용 예시
 
+  + 다음과 같은 vim 파일에서 마지막 두 줄을 삭제하고자 함
 
+      <img width="278" alt="스크린샷 2022-06-04 14 39 26" src="https://user-images.githubusercontent.com/106721960/171986157-00a549e1-014a-4052-b65b-0611f3153af4.png">
 
+  + ***qA*** 명령어를 입력하면 아래와 같이 ***rec***이라는 표시가 뜨는 것을 확인할 수 있음
 
+    <img width="322" alt="스크린샷 2022-06-04 14 40 59" src="https://user-images.githubusercontent.com/106721960/171986202-5c6a139e-22bf-47ec-a5ce-663a217f856d.png">
 
+  + 현재 커서 위치 라인을 삭제함
+  
+    <img width="322" alt="스크린샷 2022-06-04 14 42 27" src="https://user-images.githubusercontent.com/106721960/171986247-bc6af40c-3e61-49e7-af2f-cce6a7ab5533.png">
 
-<img width="278" alt="스크린샷 2022-06-04 14 39 26" src="https://user-images.githubusercontent.com/106721960/171986157-00a549e1-014a-4052-b65b-0611f3153af4.png">
+  + ***q*** 명령어로 기록 종료
+  
+    <img width="322" alt="스크린샷 2022-06-04 14 43 05" src="https://user-images.githubusercontent.com/106721960/171986264-49d10ae4-28b4-43c1-81f1-804161836be4.png">
 
+  + 한 줄 아래로 커서를 이동시킨 후 ***@A*** 명령어를 입력하면 기록한 매크로가 실행되는 것을 확인할 수 있음
 
-<img width="322" alt="스크린샷 2022-06-04 14 40 59" src="https://user-images.githubusercontent.com/106721960/171986202-5c6a139e-22bf-47ec-a5ce-663a217f856d.png">
+    <img width="322" alt="스크린샷 2022-06-04 14 44 05" src="https://user-images.githubusercontent.com/106721960/171986309-d5e77d8b-bd1d-4e58-8bb0-f45af751bb28.png">
 
-
-<img width="322" alt="스크린샷 2022-06-04 14 42 27" src="https://user-images.githubusercontent.com/106721960/171986247-bc6af40c-3e61-49e7-af2f-cce6a7ab5533.png">
-
-
-
-
-
-
-<img width="322" alt="스크린샷 2022-06-04 14 43 05" src="https://user-images.githubusercontent.com/106721960/171986264-49d10ae4-28b4-43c1-81f1-804161836be4.png">
-
-
-
-
-
-<img width="322" alt="스크린샷 2022-06-04 14 44 05" src="https://user-images.githubusercontent.com/106721960/171986309-d5e77d8b-bd1d-4e58-8bb0-f45af751bb28.png">
-
-
-
+###### 스크린샷 출처 본인 
 
 
 
