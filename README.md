@@ -122,7 +122,7 @@
 - 보통 중지시킬 수 없는 프로세스를 종료시킬 때 사용함
 
 - kill 사용법
-  + `kill [option] [signal] [PID 또는 %job_Number]
+  + `kill [option] [signal] [PID 또는 %job_Number]`
 
 - kill 명령어 옵션
 
