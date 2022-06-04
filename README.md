@@ -1,8 +1,8 @@
-####  컴퓨터공학과 20213046 박하선 오픈SW개론 README 과제
+##  컴퓨터공학과 20213046 박하선 오픈SW개론 README 과제
 
 ***
 
-**[1] Linux 명령어 top**
+### **[1] Linux 명령어 top**
 > 실시간 CPU 사용률 체크
 
 - 시스템의 상태를 전반적으로 가장 빠르게 파악할 수 있는 명령어 (CPU, Memory, Process)
@@ -37,7 +37,7 @@
   + top는 proc에서 일정 주기로 합산해 cpu 사용률 출력
 
 
-**[2] ps 명령어**
+### **[2] ps 명령어**
 > 실행 중인 Process 목록과 상태
 
 - Process Status의 약자로 업무에서 매우 많이 사용됨
@@ -85,7 +85,7 @@
 
     <img width="662" alt="스크린샷 2022-06-03 16 28 16" src="https://user-images.githubusercontent.com/106721960/171808198-aa65e62a-f354-49f6-8489-a78fa9fe1353.png">
     
-**[3] jobs 명령어**
+### **[3] jobs 명령어**
 > 작업의 상태를 표시하는 명령어
 
 - 현재 쉘 세션에서 실행시킨 백그라운드 작업의 목록 출력
@@ -114,7 +114,7 @@
 |***command***|지정한 명령어를 실행|
 
 
-**[4] kill 명령어**
+### **[4] kill 명령어**
 > 프로세스에 특정한 시그널을 보내는 명령
 
 - 문자 그대로 프로세스를 죽일 때 사용
@@ -140,11 +140,44 @@
   + ***kill -9 756 757 758*** : PID가 756, 757, 758인 프로세스 ***강제 종료***
   + ***kill -HUP 10118*** : PID가 10118인 프로세스 재시작
 
+### **[5] vim 매크로**
+> 같은 동작을 반복해서 실행할 수 있도록 하는 명령어
+
+- 매크로를 사용하면 KeyStroke를 줄일 수 있음
+- 일일이 하기에 시간이 많이 소요될 경우에 사용
+
+- 매크로 사용 방법
+  + `q[name]`
+  + ***q[name]*** 기록 시작 -> 작업 -> ***q*** 기록 종료
+  + 매크로 시작 시 ***@[name]***
+
+- 매크로 사용 예시
 
 
 
 
 
+
+<img width="278" alt="스크린샷 2022-06-04 14 39 26" src="https://user-images.githubusercontent.com/106721960/171986157-00a549e1-014a-4052-b65b-0611f3153af4.png">
+
+
+<img width="322" alt="스크린샷 2022-06-04 14 40 59" src="https://user-images.githubusercontent.com/106721960/171986202-5c6a139e-22bf-47ec-a5ce-663a217f856d.png">
+
+
+<img width="322" alt="스크린샷 2022-06-04 14 42 27" src="https://user-images.githubusercontent.com/106721960/171986247-bc6af40c-3e61-49e7-af2f-cce6a7ab5533.png">
+
+
+
+
+
+
+<img width="322" alt="스크린샷 2022-06-04 14 43 05" src="https://user-images.githubusercontent.com/106721960/171986264-49d10ae4-28b4-43c1-81f1-804161836be4.png">
+
+
+
+
+
+<img width="322" alt="스크린샷 2022-06-04 14 44 05" src="https://user-images.githubusercontent.com/106721960/171986309-d5e77d8b-bd1d-4e58-8bb0-f45af751bb28.png">
 
 
 
